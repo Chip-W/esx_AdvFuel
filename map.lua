@@ -428,11 +428,11 @@ emergency_stations = {
 }
 	
 --Air LEO--
-emergencyair_stations{
+emergencyair_stations = {
 	{x=-475.460, y=5988.470, z=31.340, s=53},--Paleto SO Helipad
 	{x=-1095.210, y=-835.050, z=37.680, s=54},--Vespucci PD Helipad
 	{x=579.850, y=12.390, z=103.230, s=55},--Vinewood PD Helipad
-	{x=449.210, y=-981.340, z=43.690, s=56},--Mission Row PD Helipad
+	{x=449.210, y=-981.340, z=43.690, s=56,},--Mission Row PD Helipad
 	{x=478.710, y=-3370.010, z=6.070, s=57},--Naval Port Helipad
 	
 --Medivac
@@ -487,36 +487,36 @@ stationsText[33] = {x=-1112.407,y=-2883.893,z=15.921}
 
 --------- EMERGENCY STATION TEXT---------
 --LEO--
-stationsText[36] =  {x=484.790, y=-1024.060, z=28.010},--Mission Row PD
-stationsText[37] =  {x=372.720, y=-1624.620, z=29.290},--David SO/PD
-stationsText[38] =  {x=-866.860, y=-2363.590, z=13.950},--Port Authority LSIA
-stationsText[36] =  {x=860.740, y=-1357.830, z=26.100},--La Mesa PD
-stationsText[40] =  {x=-1075.620, y=-861.390, z=4.870},--Vespucci PD
-stationsText[41] =  {x=-585.570, y=-156.430, z=37.960},--Rockford Hills PD
-stationsText[42] =  {x=530.870, y=-30.230, z=70.630},--Vinewood PD
-stationsText[43] =  {x=374.500, y=797.850, z=187.310},--Ranger Station in Vinewood Hills
-stationsText[44] =  {x=2521.500, y=-311.100, z=92.990},--FBI HQ Refueling
-stationsText[45] =  {x=1863.370, y=3710.780, z=33.190},--Sandy SO
-stationsText[46] =  {x=-447.910, y=5994.600, z=31.340},--Paleto SO
+stationsText[36] =  {x=484.790, y=-1024.060, z=28.010}--Mission Row PD
+stationsText[37] =  {x=372.720, y=-1624.620, z=29.290}--David SO/PD
+stationsText[38] =  {x=-866.860, y=-2363.590, z=13.950}--Port Authority LSIA
+stationsText[36] =  {x=860.740, y=-1357.830, z=26.100}--La Mesa PD
+stationsText[40] =  {x=-1075.620, y=-861.390, z=4.870}--Vespucci PD
+stationsText[41] =  {x=-585.570, y=-156.430, z=37.960}--Rockford Hills PD
+stationsText[42] =  {x=530.870, y=-30.230, z=70.630}--Vinewood PD
+stationsText[43] =  {x=374.500, y=797.850, z=187.310}--Ranger Station in Vinewood Hills
+stationsText[44] =  {x=2521.500, y=-311.100, z=92.990}--FBI HQ Refueling
+stationsText[45] =  {x=1863.370, y=3710.780, z=33.190}--Sandy SO
+stationsText[46] =  {x=-447.910, y=5994.600, z=31.340}--Paleto SO
 	
 --FEMS--
-stationsText[47] =  {x=183.410, y=-1657.370, z=29.800},--Davis FD
-stationsText[48] =  {x=-637.790, y=-97.200, z=38.050},--Rockford Hills FD
-stationsText[49] =  {x=1243.810, y=-1485.590, z=34.710},--El Burro Heights FD
-stationsText[50] =  {x=-1033.580, y=-2388.930, z=13.940},--LSIA FD
-stationsText[51] =  {x=1693.500, y=3608.050, z=35.360},--Sandy FD
-stationsText[52] =  {x=-352.680, y=6123.570, z=31.440},--Paleto FD
+stationsText[47] =  {x=183.410, y=-1657.370, z=29.800}--Davis FD
+stationsText[48] =  {x=-637.790, y=-97.200, z=38.050}--Rockford Hills FD
+stationsText[49] =  {x=1243.810, y=-1485.590, z=34.710}--El Burro Heights FD
+stationsText[50] =  {x=-1033.580, y=-2388.930, z=13.940}--LSIA FD
+stationsText[51] =  {x=1693.500, y=3608.050, z=35.360}--Sandy FD
+stationsText[52] =  {x=-352.680, y=6123.570, z=31.440}--Paleto FD
 	
 --Air LEO--
-stationsText[53] =  {x=-475.460, y=5988.470, z=31.340},--Paleto SO Helipad
-stationsText[54] =  {x=-1095.210, y=-835.050, z=37.680},--Vespucci PD Helipad
-stationsText[55] =  {x=579.850, y=12.390, z=103.230},--Vinewood PD Helipad
-stationsText[56] =  {x=449.210, y=-981.340, z=43.690},--Mission Row PD Helipad
-stationsText[57] =  {x=478.710, y=-3370.010, z=6.070},--Naval Port Helipad
+stationsText[53] =  {x=-475.460, y=5988.470, z=31.340}--Paleto SO Helipad
+stationsText[54] =  {x=-1095.210, y=-835.050, z=37.680}--Vespucci PD Helipad
+stationsText[55] =  {x=579.850, y=12.390, z=103.230}--Vinewood PD Helipad
+stationsText[56] =  {x=449.210, y=-981.340, z=43.690}--Mission Row PD Helipad
+stationsText[57] =  {x=478.710, y=-3370.010, z=6.070}--Naval Port Helipad
 	
 --Medivac
-stationsText[58] =  {x=299.300, y=-1453.590, z=46.510},--Davis Hospital Helipad
-stationsText[59] =  {x=352.130, y=-588.550, z=74.140},--Pillbox Hill Hospital Helipad
+stationsText[58] =  {x=299.300, y=-1453.590, z=46.510}--Davis Hospital Helipad
+stationsText[59] =  {x=352.130, y=-588.550, z=74.140}--Pillbox Hill Hospital Helipad
 
 --[[
 ================================================= FUNCTIONS =================================================
@@ -574,7 +574,7 @@ Citizen.CreateThread(function()
 
         for _, item in pairs(avion_stations) do
             if(isNearStationMarker(item)) then
-                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 255      , 0, 0, 1, 0, 0, 0, 0)
+                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 0      , 0, 0, 1, 0, 0, 0, 0)
                 local x = stationsText[item.s].x
                 local y = stationsText[item.s].y
                 local z = stationsText[item.s].z
@@ -587,7 +587,7 @@ Citizen.CreateThread(function()
 
         for _, item in pairs(heli_stations) do
             if(isNearStationMarker(item)) then
-                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 255      , 0, 0, 1, 0, 0, 0, 0)
+                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 0      , 0, 0, 1, 0, 0, 0, 0)
                 local x = stationsText[item.s].x
                 local y = stationsText[item.s].y
                 local z = stationsText[item.s].z
@@ -600,7 +600,7 @@ Citizen.CreateThread(function()
 		
 		for _, item in pairs(emergency_stations) do
             if(isNearStationMarker(item)) then
-                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 255      , 0, 0, 1, 0, 0, 0, 0)
+                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 0      , 0, 0, 1, 0, 0, 0, 0)
                 local x = stationsText[item.s].x
                 local y = stationsText[item.s].y
                 local z = stationsText[item.s].z
@@ -612,7 +612,7 @@ Citizen.CreateThread(function()
 		
 		for _, item in pairs(emergencyair_stations) do
             if(isNearStationMarker(item)) then
-                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 255      , 0, 0, 1, 0, 0, 0, 0)
+                DrawMarker(1, item.x, item.y, item.z-1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 1.0,     132, 52, 0, 0      , 0, 0, 1, 0, 0, 0, 0)
                 local x = stationsText[item.s].x
                 local y = stationsText[item.s].y
                 local z = stationsText[item.s].z

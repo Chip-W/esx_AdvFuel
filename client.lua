@@ -62,7 +62,7 @@ Citizen.CreateThread(function()
 					TriggerEvent("GUI:Option", settings[lang].confirm, function(cb)
 						if(cb) then
 							menu = not menu
-							int * 4; -- testing spot
+							int = int * 4; -- testing spot
 
 							TriggerServerEvent("essence:buy", 0, stationNumber,false)
 						else
@@ -85,8 +85,8 @@ Citizen.CreateThread(function()
 					TriggerEvent("GUI:Option", settings[lang].confirm, function(cb)
 						if(cb) then
 							menu = not menu
-							int * 4; -- testing spot
-
+							int = int * 4; -- testing spot
+							
 							TriggerServerEvent("essence:buy", int, stationNumber,false)
 						else
 					
@@ -97,14 +97,14 @@ Citizen.CreateThread(function()
 				end
 			end
 		else
-			if(isNearFuelStation and IsPedInAnyVehicle(GetPlayerPed(-1), -1) and not IsPedInAnyHeli(GetPlayerPed(-1)) and not isBlackListedModel()) then
+			if(isNearFuelStation and IsPedInAnyVehicle(GetPlayerPed(-1), -1) and not IsPedInAnyHeli(GetPlayerPed(-1)) and not isBlackListedModel() and isElectricModel()) then
 				Info(settings[lang].electricError)
 			end
 		end
 
 		------------------------------- EMERGENCY FUEL PART -------------------------------
 
-		if(isNearEmergencyStation and IsPedInAnyVehicle(GetPlayerPed(-1), -1) and not IsPedInAnyHeli(GetPlayerPed(-1)) and not isBlackListedModel() and not isElectricModel() and isEmergencyModel() and GetPedVehicleSeat(GetPlayerPed(-1)) == -1) then
+		if(isNearEmergencyStation() and IsPedInAnyVehicle(GetPlayerPed(-1), -1) and not IsPedInAnyHeli(GetPlayerPed(-1)) and not isBlackListedModel() and not isElectricModel() and isEmergencyModel() and GetPedVehicleSeat(GetPlayerPed(-1)) == -1) then
 			Info(settings[lang].openMenu)
 
 			if(IsControlJustPressed(1, 38)) then
@@ -140,9 +140,9 @@ Citizen.CreateThread(function()
 				TriggerEvent("GUI:Update")
 			end
 		else
-			if(isNearFuelStation and IsPedInAnyVehicle(GetPlayerPed(-1), -1) and not IsPedInAnyHeli(GetPlayerPed(-1)) and not isBlackListedModel()) then
-				Info(settings[lang].electricError)
-			end
+			--if(isNearFuelStation and IsPedInAnyVehicle(GetPlayerPed(-1), -1) and not IsPedInAnyHeli(GetPlayerPed(-1)) and not isBlackListedModel()) then
+			--	Info(settings[lang].electricError)
+			--end
 		end
 		
 		
@@ -364,7 +364,7 @@ Citizen.CreateThread(function()
 					end)
 
 					TriggerEvent("GUI:Option", settings[lang].confirm, function(cb)
-						(cb) then
+						if(cb) then
 							menu = not menu
 
 							TriggerServerEvent("essence:buy", 0, stationHeliNumber,false)
@@ -386,7 +386,7 @@ Citizen.CreateThread(function()
 					end)
 
 					TriggerEvent("GUI:Option", settings[lang].confirm, function(cb)
-						(cb) then
+						if(cb) then
 							menu = not menu
 
 							TriggerServerEvent("essence:buy", int, stationHeliNumber,false)

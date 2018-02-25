@@ -130,7 +130,8 @@ end
 
 
 function renderPrice()
-    for i=0,34 do
+    for i=0,60 do
+		randomPrice = true
         if(randomPrice) then
             --StationsPrice[i] = math.random(15,50)/100
             StationsPrice[i] = round(math.random(),2) + math.random(2,3) + .009
